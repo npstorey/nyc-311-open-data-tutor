@@ -1,60 +1,39 @@
-# NYC 311 Open Data Tutor
+# NYC 311 Open Data Tutor: Technical Overview
 
 ## Introduction
 
-Developed by Nathan Storey for his presentation at the 2024 NYC School of Data conference, the NYC 311 Open Data Tutor is an AI-powered tutor designed to facilitate the exploration and analysis of NYC's 311 data. It aims to teach data science, visualization, and critical thinking in AI use. For more detailed exploration and downloading specific NYC Open Datasets, including 311 data, users are encouraged to utilize the [NYC Open Dataset Helper GPT](https://chat.openai.com/g/g-EnEv1lcyx-nyc-open-dataset-helper).
+Developed by Nathan Storey for the 2024 NYC School of Data conference, the NYC 311 Open Data Tutor is a custom GPT built on the ChatGPT platform. It is designed to facilitate the exploration and analysis of NYC's 311 open dataset, with a focus on educating users in data science, visualization techniques, and the critical use of AI.
 
-## Features
+## System Architecture
 
-### Interactive Learning
+### Core Framework
 
-- **AI Tutoring**: Acts as an upbeat, encouraging AI tutor, guiding students through data science concepts using the NYC 311 Open Dataset.
-- **Tailored Learning**: Offers customized explanations, examples, and analogies, based on the student's learning level and prior knowledge.
+- **Base Model**: Utilizes ChatGPT's advanced natural language processing capabilities, tailored to interactively teach data science concepts.
+- **Customization**: Enhanced with specific instructions to guide users through the NYC 311 data, offering a structured learning experience.
 
-### Course Overview
+### Functionality
 
-- **Comprehensive Curriculum**: Covers the entire data science pipeline, including formulating research questions, navigating and extracting data, cleaning and analyzing datasets, and creating visualizations.
+- **Interactive AI Tutoring**: Provides an engaging, conversational learning environment, prompting users with questions and guiding them based on their responses.
+- **Data Science Education**: Focuses on teaching users to navigate, analyze, and visualize data effectively, using the NYC 311 dataset as a primary resource.
 
-### Hands-On Experience
+## Operational Workflow
 
-- **Data Exploration**: Allows students to explore specific aspects of the 311 data or other datasets from the NYC Open Data portal.
-- **Visualization Mastery**: Teaches powerful data visualization techniques, following principles from experts like Tufte.
+1. **Introduction**: Users are greeted by the AI tutor, which assesses their learning level and interests.
+2. **Learning Path**: Tailors the educational content, offering explanations, examples, and analogies appropriate to the user's knowledge level.
+3. **Hands-On Guidance**: Encourages interactive learning by guiding users through data exploration and analysis tasks.
+4. **Critical Thinking**: Promotes the development of critical evaluation skills, particularly concerning AI outputs and data interpretation.
 
-## Usage
+## Key Components
 
-Begin by introducing yourself as a student to the NYC 311 Open Data Tutor. You will be guided through a series of questions to assess your learning level and interests, leading to a tailored educational experience. The process includes exploring datasets, learning data science principles, and applying data analysis and visualization techniques.
+- **Course Overview**: A structured curriculum that guides users through the data science pipeline using the NYC 311 open dataset.
+- **Learning Objectives**: Includes formulating research questions, extracting and cleaning data, performing analyses, creating visualizations, and evaluating AI limitations.
+- **Data Visualization Principles**: Teaches effective visualization techniques, drawing on established principles from experts in the field.
 
-## Course Content
+## Technical Specifications
 
-### COURSE OVERVIEW
+- **Platform**: Built on ChatGPT's GPT-4 model, leveraging its extensive knowledge base and natural language processing abilities.
+- **Custom Instructions**: Specific instructions are embedded within the GPT to guide the tutoring process, ensuring relevance and educational value in the context of NYC's 311 data.
 
-Engages learners in exploring the NYC 311 Open Dataset with generative AI, emphasizing the Code Interpreter feature for advanced data analysis.
+## Access and Usage
 
-### LEARNING OBJECTIVES
-
-- Formulate and refine research questions.
-- Navigate and extract data from the NYC Open Data portal.
-- Clean, standardize, and normalize datasets.
-- Analyze data for descriptive statistics.
-- Create meaningful and accurate visualizations.
-- Integrate various datasets for in-depth analysis.
-- Critically evaluate LLM outputs and limitations.
-
-### COURSE OUTLINE
-
-- Introduction to NYC Open Data
-- Data Science Pipeline
-- Hands-On Activities
-- Critical Analysis
-
-## Data Visualization Principles
-
-Teaches visualization skills, emphasizing clarity, accuracy, and effective communication of data insights, with guidance on dos and don'ts in data presentation.
-
-## Data Science Pipeline
-
-Covers each step of the data science pipeline, from research question formulation to data gathering, cleaning, analysis, and visualization.
-
-## Getting Started
-
-To explore the capabilities of the NYC 311 Open Data Tutor and start learning about data science with NYC's 311 data, visit the AI tutor's interactive platform at [NYC 311 Open Data Tutor](https://chat.openai.com/g/g-73uUrohjW-nyc-311-open-data-tutor).
+To interact with the NYC 311 Open Data Tutor and start the educational journey in data science using NYC's 311 dataset, visit the tool at [NYC 311 Open Data Tutor](https://chat.openai.com/g/g-73uUrohjW-nyc-311-open-data-tutor).
